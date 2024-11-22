@@ -1,0 +1,17 @@
+# vscode plugins
+.vscode
+.pytest_cache
+.metals
+
+# python execution cache
+__pycache__
+
+# intermediate files
+temp/
+*.log*
+figs/*.png
+analysis/
+
+# exception
+!analysis/Nangate45/
+!analysis/ana_plot.py
